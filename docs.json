@@ -11,7 +11,7 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Guides",
+        "tab": "Infos",
         "groups": [
           {
             "group": "Die Basics",
@@ -24,9 +24,28 @@
             "group": "Teamverwaltung",
             "pages": [
               "teamverwaltung/index",
-              "teamverwaltung/team_erstellen"
+              "teamverwaltung/team_erstellen",
+              "teamverwaltung/team_mitglieder_verwalten",
+              "teamverwaltung/season_anmeldung"
             ]
-          }               
+          },
+          {
+            "group": "Season",
+            "pages": [
+              "season/index",
+              "season/divisionen",
+              "season/spielplan"
+            ]
+          },
+          {
+            "group": "Match",
+            "pages": [
+              "season/match",
+              "season/matchchat",
+              "season/termin",
+              "season/matchergebnis_melden"              
+            ]
+          }                
         ]
       }
     ],
